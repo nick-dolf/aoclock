@@ -6,6 +6,7 @@ let message = "Welcome to Aoclock"
 
 if (process.env.NODE_ENV === 'production') {
   message += " - production environment"
+  message += " - webhook and restart working"
 } else {
   console.log("started node in development mode")
   message += " - development environment"
